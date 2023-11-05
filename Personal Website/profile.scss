@@ -1,0 +1,26 @@
+body {
+    background-color: coral;
+  }
+  #snow {
+    background: none;
+    background-image: url("https://i.ibb.co/f1b7h33/corndog-tile-1.png"),
+      url("https://i.ibb.co/THsHtkS/corndog-tile.png"),
+      url("https://i.ibb.co/KWdcrMb/corndog-tile-2.png");
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    animation: snow 1000s linear infinite;
+    transform: translate(0, 0);
+  }
+  @keyframes snow {
+    0% {
+      background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    100% {
+      background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;
+    }
+  }
+  
