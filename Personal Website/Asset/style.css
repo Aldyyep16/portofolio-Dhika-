@@ -119,6 +119,7 @@
   #RESET
 \*-----------------------------------*/
 
+html{scroll-behavior: smooth;}
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -1780,6 +1781,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   body::-webkit-scrollbar-button { height: 60px; }
 
+ 
+
 
 
   /**
@@ -1832,7 +1835,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .avatar-box img { width: 150px; }
 
   .info-content .name {
-    white-space: nowrap;
+    
     text-align: center;
   }
 
@@ -1874,3 +1877,5 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+/*<!-- Bagian Card Profile -->*/
